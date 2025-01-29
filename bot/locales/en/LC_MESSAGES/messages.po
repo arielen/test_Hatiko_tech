@@ -1,0 +1,241 @@
+# English translations for PROJECT.
+# Copyright (C) 2025 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2025-01-30 03:49+0700\n"
+"PO-Revision-Date: 2025-01-30 03:28+0700\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.13.1\n"
+
+#: handlers/admin.py:22
+msgid "❌ Invalid command usage. Usage: `{command} <id>`"
+msgstr ""
+
+#: handlers/admin.py:30 handlers/contact.py:34
+msgid "❌ You do not have permission to use this command."
+msgstr ""
+
+#: handlers/admin.py:36
+msgid "❌ User with ID {tg_id} does not exist."
+msgstr ""
+
+#: handlers/admin.py:41
+msgid "❌ Invalid Telegram ID. Please provide a valid number."
+msgstr ""
+
+#: handlers/admin.py:55
+msgid "❌ You cannot remove the main admin."
+msgstr ""
+
+#: handlers/check.py:29
+msgid ""
+"⛔️ You do not have access to the bot functionality. Please contact the "
+"administrator to be added to the whitelist.\n"
+"\n"
+"📩 Contact admin: @{adminUsername}"
+msgstr ""
+
+#: handlers/check.py:48
+msgid "🔢 Please enter the IMEI number (15 digits):"
+msgstr ""
+
+#: handlers/check.py:67
+msgid ""
+"❗ Please enter the IMEI number after the command, like this:\n"
+"`/check 123456789012345`"
+msgstr ""
+
+#: handlers/check.py:81
+msgid ""
+"✅ The IMEI number {imei} is valid.\n"
+"Fetching information about the device..."
+msgstr ""
+
+#: handlers/check.py:104
+msgid ""
+"📱 <b>✅ Verification complete! Here is the information for your "
+"device:</b>\n"
+"🔹 <b>Name:</b> <b>{deviceName}</b>\n"
+"🔹 <b>Serial Number:</b> <code>{serial}</code>\n"
+"🔹 <b>Estimated Purchase Date:</b> {estPurchaseDate}\n"
+"🖼 <b>Image:</b> <a href=\"{image}\">Image Link</a>\n"
+"\n"
+"📂 <b>Additional Data:</b>\n"
+"<pre>{additional_data}</pre>"
+msgstr ""
+
+#: handlers/check.py:131
+msgid ""
+"❌ The IMEI number <code>{imei}</code> is invalid.\n"
+"Please enter a valid IMEI number.\n"
+"\n"
+"To find the IMEI on your device:\n"
+"🔹 <b>For Android:</b> Dial <code>*#06#</code> or go to <b>Settings</b> → "
+"<b>About Phone</b> → <b>Status</b> → <b>IMEI Information</b>.\n"
+"🔹 <b>For Apple (iPhone):</b> Dial <code>*#06#</code> or go to "
+"<b>Settings</b> → <b>General</b> → <b>About</b>, and scroll down to find "
+"the IMEI."
+msgstr ""
+
+#: handlers/check.py:147
+msgid "❌ Device information could not be fetched. Reason: {reason}"
+msgstr ""
+
+#: handlers/check.py:153
+msgid "❌ An unexpected error occurred. Please try again later."
+msgstr ""
+
+#: handlers/contact.py:21
+msgid ""
+"📩 Need help? Contact the administrator:\n"
+"🔹 [@{adminUsername}](https://t.me/{adminUsername})"
+msgstr ""
+
+#: handlers/contact.py:44
+msgid ""
+"🔑 Your API token:\n"
+"`{token}`"
+msgstr ""
+
+#: handlers/help.py:18
+msgid ""
+"🤖 <b>Bot Command Guide:</b>\n"
+"\n"
+"📌 <b>General Commands:</b>\n"
+"/start - Start interacting with the bot\n"
+"/help - Show this help message\n"
+"/language - Change the bot's language\n"
+"/myid - Get your Telegram ID\n"
+"\n"
+msgstr ""
+
+#: handlers/help.py:28
+msgid ""
+"📌 <b>IMEI Checking:</b>\n"
+"/check &lt;IMEI&gt; - Check device information using an IMEI number\n"
+"\n"
+msgstr ""
+
+#: handlers/help.py:33
+msgid ""
+"📌 <b>IMEI Checking:</b>\n"
+"⛔️ You do not have access to check IMEI.\n"
+"Ask an administrator to add you to the whitelist.\n"
+"\n"
+msgstr ""
+
+#: handlers/help.py:40
+msgid ""
+"📌 <b>Admin Commands:</b>\n"
+"/add_admin &lt;id&gt; - Grant admin rights to a user\n"
+"/remove_admin &lt;id&gt; - Revoke admin rights from a user\n"
+"/add_whitelist &lt;id&gt; - Add a user to the whitelist\n"
+"/remove_whitelist &lt;id&gt; - Remove a user from the whitelist\n"
+"/get_token - Get your API token\n"
+"\n"
+msgstr ""
+
+#: handlers/help.py:49
+msgid ""
+"📌 <b>Navigation:</b>\n"
+"Use inline buttons for language selection and other interactions.\n"
+"\n"
+"🔹 If you experience any issues, use the /contact command to reach support."
+msgstr ""
+
+#: handlers/help.py:62
+msgid ""
+"🆔 Your Telegram ID: <code>{user_id}</code>\n"
+"\n"
+"This unique ID is used to identify you in the bot system."
+msgstr ""
+
+#: handlers/start.py:17
+msgid ""
+"📖 Here's how to use the bot:\n"
+"\n"
+"1️⃣ Send me your IMEI (15 digits) and I will check it for validity.\n"
+"2️⃣ If IMEI is valid, I will provide information about your device.\n"
+"3️⃣ If something goes wrong, you can contact support via the /contact "
+"command.\n"
+"\n"
+"You can also use the direct command.\n"
+"Example command: `/check 123456789012345`"
+msgstr ""
+
+#: handlers/start.py:39
+msgid ""
+"👋 Hi {userName}, I am a {namePlatform} for checking IMEI of devices.\n"
+"I can help you verify information about your device using its IMEI "
+"number.\n"
+"\n"
+"Please select a language:"
+msgstr ""
+
+#: handlers/start.py:58
+msgid "Please select a language:"
+msgstr ""
+
+#: handlers/start.py:72
+msgid "Language changed to {lang}"
+msgstr ""
+
+#: handlers/utils.py:39
+msgid "No previous message to return to."
+msgstr ""
+
+#: keyboards/markups.py:23
+msgid "🔍 Check IMEI"
+msgstr ""
+
+#: keyboards/markups.py:26
+msgid "📖 Help"
+msgstr ""
+
+#: keyboards/markups.py:27
+msgid "🌍 Change Language"
+msgstr ""
+
+#: keyboards/markups.py:35
+msgid "➕ Add Admin (/add_admin)"
+msgstr ""
+
+#: keyboards/markups.py:36
+msgid "➖ Remove Admin (/remove_admin)"
+msgstr ""
+
+#: keyboards/markups.py:39
+msgid "✅ Add to Whitelist (/add_whitelist)"
+msgstr ""
+
+#: keyboards/markups.py:40
+msgid "❌ Remove from Whitelist (/remove_whitelist)"
+msgstr ""
+
+#: keyboards/markups.py:43
+msgid "🔑 Get API Token (/get_token)"
+msgstr ""
+
+#: keyboards/markups.py:44
+msgid "📖 Help (/help)"
+msgstr ""
+
+#: keyboards/markups.py:51
+msgid "Admin options"
+msgstr ""
+
+#: keyboards/markups.py:55
+msgid "🔙 Back"
+msgstr ""
+

@@ -1,0 +1,5 @@
+tox
+uvicorn
+fastapi
+httpx
+pydantic_settings

@@ -1,0 +1,315 @@
+# Russian translations for PROJECT.
+# Copyright (C) 2025 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2025-01-30 03:49+0700\n"
+"PO-Revision-Date: 2025-01-30 03:28+0700\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ru\n"
+"Language-Team: ru <LL@li.org>\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.13.1\n"
+
+#: handlers/admin.py:22
+msgid "❌ Invalid command usage. Usage: `{command} <id>`"
+msgstr "❌ Неверное использование команды. Пример: `{command} <id>`."
+
+#: handlers/admin.py:30 handlers/contact.py:34
+msgid "❌ You do not have permission to use this command."
+msgstr "❌ У вас нет прав для выполнения этой команды."
+
+#: handlers/admin.py:36
+msgid "❌ User with ID {tg_id} does not exist."
+msgstr "❌ Пользователь с идентификатором {tg_id} не найден."
+
+#: handlers/admin.py:41
+msgid "❌ Invalid Telegram ID. Please provide a valid number."
+msgstr "❌ Неверный Telegram ID. Пожалуйста, укажите корректный номер."
+
+#: handlers/admin.py:55
+msgid "❌ You cannot remove the main admin."
+msgstr "❌ Вы не можете удалить главного администратора."
+
+#: handlers/check.py:29
+msgid ""
+"⛔️ You do not have access to the bot functionality. Please contact the "
+"administrator to be added to the whitelist.\n"
+"\n"
+"📩 Contact admin: @{adminUsername}"
+msgstr ""
+"⛔️ У вас нет доступа к функционалу бота. Обратитесь к администратору, "
+"чтобы вас добавили в белый список.\n"
+"\n"
+"📩 Связаться с администратором: @{adminUsername}"
+
+#: handlers/check.py:48
+msgid "🔢 Please enter the IMEI number (15 digits):"
+msgstr "🔢 Пожалуйста, введите номер IMEI (15 цифр):"
+
+#: handlers/check.py:67
+msgid ""
+"❗ Please enter the IMEI number after the command, like this:\n"
+"`/check 123456789012345`"
+msgstr ""
+"❗ Пожалуйста, введите номер IMEI после команды, например:\n"
+"`/check 123456789012345`"
+
+#: handlers/check.py:81
+msgid ""
+"✅ The IMEI number {imei} is valid.\n"
+"Fetching information about the device..."
+msgstr ""
+"✅ Номер IMEI {imei} действителен.\n"
+"Получаем информацию об устройстве..."
+
+#: handlers/check.py:104
+msgid ""
+"📱 <b>✅ Verification complete! Here is the information for your "
+"device:</b>\n"
+"🔹 <b>Name:</b> <b>{deviceName}</b>\n"
+"🔹 <b>Serial Number:</b> <code>{serial}</code>\n"
+"🔹 <b>Estimated Purchase Date:</b> {estPurchaseDate}\n"
+"🖼 <b>Image:</b> <a href=\"{image}\">Image Link</a>\n"
+"\n"
+"📂 <b>Additional Data:</b>\n"
+"<pre>{additional_data}</pre>"
+msgstr ""
+"📱 <b>✅ Проверка завершена! Информация об устройстве:</b>\n"
+"🔹 <b>Название:</b> <b>{deviceName}</b>\n"
+"🔹 <b>Серийный номер:</b> <code>{serial}</code>\n"
+"🔹 <b>Предполагаемая дата покупки:</b> {estPurchaseDate}\n"
+"🖼 <b>Изображение:</b> <a href=\"{image}\">Ссылка</a>\n"
+"\n"
+"📂 <b>Дополнительные данные:</b>\n"
+"<pre>{additional_data}</pre>"
+
+#: handlers/check.py:131
+msgid ""
+"❌ The IMEI number <code>{imei}</code> is invalid.\n"
+"Please enter a valid IMEI number.\n"
+"\n"
+"To find the IMEI on your device:\n"
+"🔹 <b>For Android:</b> Dial <code>*#06#</code> or go to <b>Settings</b> → "
+"<b>About Phone</b> → <b>Status</b> → <b>IMEI Information</b>.\n"
+"🔹 <b>For Apple (iPhone):</b> Dial <code>*#06#</code> or go to "
+"<b>Settings</b> → <b>General</b> → <b>About</b>, and scroll down to find "
+"the IMEI."
+msgstr ""
+"❌ Номер IMEI <code>{imei}</code> недействителен.\n"
+"Пожалуйста, введите корректный номер IMEI.\n"
+"\n"
+"Чтобы найти IMEI на вашем устройстве:\n"
+"🔹 <b>Для Android:</b> наберите <code>*#06#</code> или перейдите в "
+"<b>Настройки</b> → <b>О телефоне</b> → <b>Статус</b> → <b>Информация об "
+"IMEI</b>.\n"
+"🔹 <b>Для Apple (iPhone):</b> наберите <code>*#06#</code> или перейдите в "
+"<b>Настройки</b> → <b>Основные</b> → <b>Об этом устройстве</b>."
+
+#: handlers/check.py:147
+msgid "❌ Device information could not be fetched. Reason: {reason}"
+msgstr "❌ Не удалось получить информацию об устройстве. Причина: {reason}"
+
+#: handlers/check.py:153
+msgid "❌ An unexpected error occurred. Please try again later."
+msgstr "❌ Произошла непредвиденная ошибка. Пожалуйста, повторите попытку позже."
+
+#: handlers/contact.py:21
+msgid ""
+"📩 Need help? Contact the administrator:\n"
+"🔹 [@{adminUsername}](https://t.me/{adminUsername})"
+msgstr ""
+"📩 Нужна помощь? Свяжитесь с администратором:\n"
+"🔹 [@{adminUsername}](https://t.me/{adminUsername})"
+
+#: handlers/contact.py:44
+msgid ""
+"🔑 Your API token:\n"
+"`{token}`"
+msgstr ""
+"🔑 Ваш токен API:\n"
+"`{token}`"
+
+#: handlers/help.py:18
+msgid ""
+"🤖 <b>Bot Command Guide:</b>\n"
+"\n"
+"📌 <b>General Commands:</b>\n"
+"/start - Start interacting with the bot\n"
+"/help - Show this help message\n"
+"/language - Change the bot's language\n"
+"/myid - Get your Telegram ID\n"
+"\n"
+msgstr ""
+"🤖 <b>Справка по командам бота:</b>\n"
+"\n"
+"📌 <b>Общие команды:</b>\n"
+"/start - Начать работу с ботом\n"
+"/help - Показать справку\n"
+"/language - Сменить язык бота\n"
+"/myid - Получить свой Telegram ID\n"
+"\n"
+
+#: handlers/help.py:28
+msgid ""
+"📌 <b>IMEI Checking:</b>\n"
+"/check &lt;IMEI&gt; - Check device information using an IMEI number\n"
+"\n"
+msgstr ""
+"📌 <b>Проверка IMEI:</b>\n"
+"/check &lt;IMEI&gt; - Проверка информации об устройстве по номеру IMEI\n"
+"\n"
+
+#: handlers/help.py:33
+msgid ""
+"📌 <b>IMEI Checking:</b>\n"
+"⛔️ You do not have access to check IMEI.\n"
+"Ask an administrator to add you to the whitelist.\n"
+"\n"
+msgstr ""
+"📌 <b>Проверка IMEI:</b>\n"
+"⛔️ У вас нет доступа к проверке IMEI.\n"
+"Попросите администратора добавить вас в белый список.\n"
+"\n"
+
+#: handlers/help.py:40
+msgid ""
+"📌 <b>Admin Commands:</b>\n"
+"/add_admin &lt;id&gt; - Grant admin rights to a user\n"
+"/remove_admin &lt;id&gt; - Revoke admin rights from a user\n"
+"/add_whitelist &lt;id&gt; - Add a user to the whitelist\n"
+"/remove_whitelist &lt;id&gt; - Remove a user from the whitelist\n"
+"/get_token - Get your API token\n"
+"\n"
+msgstr ""
+"📌 <b>Команды администратора:</b>\n"
+"/add_admin &lt;id&gt; - Назначить пользователя администратором\n"
+"/remove_admin &lt;id&gt; - Удалить пользователя из администраторов\n"
+"/add_whitelist &lt;id&gt; - Добавить пользователя в белый список\n"
+"/remove_whitelist &lt;id&gt; - Удалить пользователя из белого списка\n"
+"/get_token - Получить API токен\n"
+"\n"
+
+#: handlers/help.py:49
+msgid ""
+"📌 <b>Navigation:</b>\n"
+"Use inline buttons for language selection and other interactions.\n"
+"\n"
+"🔹 If you experience any issues, use the /contact command to reach support."
+msgstr ""
+"📌 <b>Навигация:</b>\n"
+"Используйте встроенные кнопки для выбора языка и других взаимодействий.\n"
+"\n"
+"🔹 Если у вас возникнут какие-либо проблемы, используйте команду /contact "
+"для связи со службой поддержки."
+
+#: handlers/help.py:62
+msgid ""
+"🆔 Your Telegram ID: <code>{user_id}</code>\n"
+"\n"
+"This unique ID is used to identify you in the bot system."
+msgstr ""
+"🆔 Ваш Telegram ID: <code>{user_id}</code>\n"
+"\n"
+"Этот уникальный идентификатор используется для вашей идентификации в "
+"системе ботов."
+
+#: handlers/start.py:17
+msgid ""
+"📖 Here's how to use the bot:\n"
+"\n"
+"1️⃣ Send me your IMEI (15 digits) and I will check it for validity.\n"
+"2️⃣ If IMEI is valid, I will provide information about your device.\n"
+"3️⃣ If something goes wrong, you can contact support via the /contact "
+"command.\n"
+"\n"
+"You can also use the direct command.\n"
+"Example command: `/check 123456789012345`"
+msgstr ""
+"📖 Как использовать бота:\n"
+"\n"
+"1️⃣ Отправьте мне ваш IMEI (15 цифр), и я проверю его на валидность.\n"
+"2️⃣ Если IMEI действителен, я предоставлю информацию об устройстве.\n"
+"3️⃣ Если что-то пойдет не так, вы можете обратиться в поддержку с помощью"
+" команды /contact.\n"
+"\n"
+"Вы также можете использовать прямую команду.\n"
+"Пример команды: `/check 123456789012345`"
+
+#: handlers/start.py:39
+msgid ""
+"👋 Hi {userName}, I am a {namePlatform} for checking IMEI of devices.\n"
+"I can help you verify information about your device using its IMEI "
+"number.\n"
+"\n"
+"Please select a language:"
+msgstr ""
+"👋 Привет, {userName}! Я {namePlatform} для проверки IMEI устройств.\n"
+"Я помогу вам проверить информацию об устройстве по его IMEI номеру.\n"
+"\n"
+"Пожалуйста, выберите язык:"
+
+#: handlers/start.py:58
+msgid "Please select a language:"
+msgstr "Пожалуйста, выберите язык:"
+
+#: handlers/start.py:72
+msgid "Language changed to {lang}"
+msgstr "Язык изменен на {lang}"
+
+#: handlers/utils.py:39
+msgid "No previous message to return to."
+msgstr "Нет предыдущего сообщения для возврата."
+
+#: keyboards/markups.py:23
+msgid "🔍 Check IMEI"
+msgstr "🔍 Проверить IMEI"
+
+#: keyboards/markups.py:26
+msgid "📖 Help"
+msgstr "📖 Помощь"
+
+#: keyboards/markups.py:27
+msgid "🌍 Change Language"
+msgstr "🌍 Изменить язык"
+
+#: keyboards/markups.py:35
+msgid "➕ Add Admin (/add_admin)"
+msgstr "➕ Добавить администратора (/add_admin)"
+
+#: keyboards/markups.py:36
+msgid "➖ Remove Admin (/remove_admin)"
+msgstr "➖ Удалить администратора (/remove_admin)"
+
+#: keyboards/markups.py:39
+msgid "✅ Add to Whitelist (/add_whitelist)"
+msgstr "✅ Добавить в белый список (/add_whitelist)"
+
+#: keyboards/markups.py:40
+msgid "❌ Remove from Whitelist (/remove_whitelist)"
+msgstr "❌ Удалить из белого списка (/remove_whitelist)"
+
+#: keyboards/markups.py:43
+msgid "🔑 Get API Token (/get_token)"
+msgstr "🔑 Получить API токен (/get_token)"
+
+#: keyboards/markups.py:44
+msgid "📖 Help (/help)"
+msgstr "📖 Помощь (/help)"
+
+#: keyboards/markups.py:51
+msgid "Admin options"
+msgstr "Опции администратора"
+
+#: keyboards/markups.py:55
+msgid "🔙 Back"
+msgstr "🔙 Назад"
+

@@ -1,0 +1,7 @@
+aiogram[i18n]
+redis
+sqlalchemy
+asyncpg
+pydantic_settings
+fastapi
+httpx
