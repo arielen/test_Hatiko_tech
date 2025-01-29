@@ -10,6 +10,7 @@
 | [How to Run the Project](#️-how-to-run-the-project) | Steps to set up and run the project |
 | [Testing](#-testing) | Instructions for running tests and linting |
 | [Project Structure](#-project-structure) | Folder structure explanation |
+| [Usage Presentation](#-usage-presentation) | Presentation of bot and API usage |
 | [Contacts](#-contacts) | Developer contact information |
 
 ## 🚀 Project Description
@@ -171,6 +172,13 @@ ruff check .
 ├── requirements-test.txt         # Python dependencies for tests
 ├── README.md                     # Project documentation
 ```
+
+---
+
+## 🎥 **Usage presentation**
+https://github.com/user-attachments/assets/057081e1-e816-4ad1-a6de-50664c3dd53a
+
+https://github.com/user-attachments/assets/683633d8-0d43-48f9-b205-184f309e83f7
 
 ---
 
